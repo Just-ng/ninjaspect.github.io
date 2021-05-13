@@ -442,3 +442,40 @@ img.close:hover {
         flex-wrap: wrap;
     }
 }
+
+@media (max-width: 850px) {
+    .logo {
+    float: none;
+    text-align: center;
+    display: block;
+    padding: 0;
+    margin: 15px 0px;
+    }
+    .menu {
+    float: left;
+    text-align: center;
+    display: block;
+    justify-content: space-evenly;
+    margin: 15px 0px 15px 0px;
+    padding: 0;
+    }
+}
+
+@media (max-width: 699px) {
+    .forms {
+    float: none;
+    text-align: center;
+    box-sizing: content-box;
+    font-size: 20px;
+    padding: 10px;
+    margin: 5px 0 5px 0;
+    }
+        .menu {
+    float: none;
+    text-align: center;
+    display: block;
+    justify-content: space-evenly;
+    margin: 15px 0px 15px 0px;
+    padding: 0;
+    }
+}
